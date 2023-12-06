@@ -32,8 +32,7 @@ export const projects: Project[] = [
     title: 'Cloud store',
     stack: ['TypeScript', 'NextJs', 'Redux'],
     description: 'A cloud store where you can collect your files.',
-    // demo: 'https://snapgram-13.vercel.app/',
-    code: 'https://github.com/D0nechka/cloud-storage',
+    demo: 'https://cloud-storage-d0nechka.vercel.app',
   },
   {
     id: 2,
