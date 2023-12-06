@@ -40,7 +40,7 @@ export const projects: Project[] = [
     title: 'Kanban board',
     stack: ['TypeScript', 'NextJS 14', 'Zustand'],
     description: 'A project where you can create tasks and filter by boards.',
-    demo: 'https://kanban-board-fefq-cgk84w102-d0nechka.vercel.app/',
+    demo: 'https://kanban-board-d0nechka.vercel.app/',
     code: 'https://github.com/D0nechka/Kanban-board',
   },
   {
