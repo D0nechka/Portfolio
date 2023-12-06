@@ -1,0 +1,70 @@
+@import 'reset.scss';
+
+:root {
+  --color-dark-primary: #2c2c2c;
+  --color-dark-accent: #444;
+
+  --color-text-primary: #2c2c2c;
+  --color-text-accent: #737373;
+
+  --text-gray: #888;
+  --text-gradient: linear-gradient(180deg, #fff, #adadad);
+
+  --purple: #ac81f3;
+  --green: #aae73d;
+}
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+
+  overflow-x: hidden;
+
+  font-size: 16px;
+  font-weight: normal;
+  color: var(--text-gray);
+
+  background-color: #000;
+}
+
+* {
+  ::-webkit-scrollbar {
+    width: 0;
+  }
+}
+
+a,
+a:visited {
+  color: inherit;
+}
+
+svg {
+  fill: var(--color-text-primary);
+}
+
+#__layout {
+  min-height: 100vh;
+}
+
+header,
+footer {
+  background-color: rgba(180, 185, 188, 0.05);
+  border: 1px solid rgba(131, 134, 135, 0.15);
+  border-radius: 20px;
+  height: 60px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+}
+
+footer {
+  height: 60px;
+}
+
+h2 {
+  font-size: max(32px, min(5vw, 48px));
+  font-weight: 500;
+}

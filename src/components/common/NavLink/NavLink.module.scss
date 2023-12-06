@@ -1,0 +1,25 @@
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100px;
+  height: 24px;
+
+  border-radius: 20px;
+
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: -0.05em;
+
+  transition: all 0.3s ease;
+  &.active {
+    background-color: var(--purple);
+
+    span {
+      transition: all 0.3s ease;
+      color: #e3e3e3;
+    }
+  }
+}
